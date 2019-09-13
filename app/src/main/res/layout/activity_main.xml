@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#dcdc">
+
+
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"/>
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.Material.EditText"
+            android:ems="10"
+            />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surname"/>
+
+    <EditText
+        android:id="@+id/edt_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Material.EditText"
+        android:ems="10"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks"/>
+
+    <EditText
+        android:id="@+id/edt_marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Material.EditText"
+        android:ems="10"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"/>
+
+    <EditText
+        android:id="@+id/edt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Material.EditText"
+        android:ems="10"
+        />
+        
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_tambah"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:text="Tambah"/>
+
+        <Button
+            android:id="@+id/btn_lihat"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:text="Lihat"
+            android:layout_toRightOf="@+id/btn_tambah"/>
+
+        <Button
+            android:id="@+id/btn_ubah"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:text="Ubah"
+            android:layout_below="@+id/btn_tambah"/>
+
+        <Button
+            android:id="@+id/btn_hapus"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:text="Hapus"
+            android:layout_toRightOf="@+id/btn_ubah"
+            android:layout_below="@+id/btn_tambah"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
